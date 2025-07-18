@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <meta name="description" content="Sitio web profesional dedicado al diseño web moderno con tecnologías actuales como HTML, CSS y JavaScript.">
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+
+  <title>Mi Sitio Profesional</title>
+  
+  <link rel="stylesheet" href="estilos.css" />
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <!-- Menú de navegación -->
+  <nav class="navbar">
+    <ul>
+      <li><a href="#hero">Inicio</a></li>
+      <li><a href="#servicios">Servicios</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <!-- Sección hero -->
+  <section id="hero" class="hero">
+    <div class="overlay">
+      <h1>Bienvenido a Nuestra Web</h1>
+      <p>Un sitio moderno con HTML, CSS y JavaScript</p>
+      <a href="#servicios" class="btn">Saber más</a>
+    </div>
+  </section>
+
+  <!-- Servicios -->
+  <section id="servicios" class="servicios">
+    <h2>¿Qué hacemos?</h2>
+    <p>Nos dedicamos al diseño web moderno utilizando las mejores prácticas y tecnologías del momento.</p>
+    <div class="servicios-grid">
+
+      <div class="card tooltip" tabindex="0">
+        <img src="img/proyecto1.jpg" alt="Proyecto 1" class="proyecto-img" loading="lazy">
+        <div class="tooltip-text">Sitio de ecommerce con carrito de compras.</div>
+        <h3>Diseño Responsivo</h3>
+        <p>Adaptado a todos los dispositivos.</p>
+      </div>
+
+      <div class="card tooltip" tabindex="0">
+        <img src="img/proyecto2.jpg" alt="Proyecto 2" class="proyecto-img" loading="lazy">
+        <div class="tooltip-text">Landing page con llamadas a la acción.</div>
+        <h3>Animaciones Suaves</h3>
+        <p>Transiciones visuales atractivas.</p>
+      </div>
+
+      <div class="card tooltip" tabindex="0">
+        <img src="img/proyecto3.jpg" alt="Proyecto 3" class="proyecto-img" loading="lazy">
+        <div class="tooltip-text">App para ver el clima en tiempo real.</div>
+        <h3>Código Limpio</h3>
+        <p>HTML, CSS y JS bien estructurado.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contacto" class="contacto">
+    <h2>Contacto</h2>
+    <p>¿Quieres trabajar con nosotros? Escríbenos:</p>
+    <form action="#" method="post" class="contact-form" aria-label="Formulario de contacto">
+      <input type="text" name="nombre" placeholder="Tu nombre" required>
+      <input type="email" name="email" placeholder="Tu correo" required>
+      <textarea name="mensaje" placeholder="Tu mensaje" rows="4" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <!-- Botón volver arriba -->
+  <button id="btn-scroll-top" aria-label="Volver arriba" title="Volver arriba">&#8679;</button>
+
+  <!-- Redes sociales -->
+  <div class="redes-sociales" aria-label="Redes sociales">
+    <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+    <a href="https://twitter.com" target="_blank" rel="noopener" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+    <a href="https://linkedin.com" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+  </div>
+
+  <footer>
+    © 2025 Mi Sitio Profesional. Todos los derechos reservados. | Última actualización: 18 de julio, 2025
+  </footer>
+
+</body>
+</html>
